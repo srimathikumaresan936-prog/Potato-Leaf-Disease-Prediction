@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Datasets and generated splits
+data/
+PlantDisease/
+*.zip
+
+# Trained model and generated metrics (can be large)
+models/*.keras
+models/*.h5
+training_metrics.json
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
